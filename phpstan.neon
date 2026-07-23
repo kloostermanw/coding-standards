@@ -1,0 +1,7 @@
+includes:
+    - ../../larastan/larastan/extension.neon
+    - ../../phpstan/phpstan-phpunit/extension.neon
+
+parameters:
+    level: 6
+    editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%'
